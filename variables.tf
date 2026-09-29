@@ -10,7 +10,7 @@ variable "subscription_id" {
 
 variable "rg_name" {
   type    = string
-  default = "sandbox_prenom.nom" # modify accordingly
+  default = "sandbox_faustine.lacroix" # modify accordingly
 }
 
 variable "location" {
@@ -20,7 +20,7 @@ variable "location" {
 
 variable "nickname" {
   type    = string
-  default = "trigram" # Replace this by your trigram, e.g., jdo for "John Doe" in lower case
+  default = "flop" # Replace this by your trigram, e.g., jdo for "John Doe" in lower case
 }
 
 variable "deploy_vm" {
